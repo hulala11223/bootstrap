@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>登录</title>
+
+	<!-- Bootstrap CSS -->
+	<link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- login CSS -->
+	<link href="../css/login.css" rel="stylesheet">
+
+	<!-- 可选的Bootstrap主题文件（一般不使用） -->
+	<script src="../assets/bootstrap/css/bootstrap-theme.min.css"></script>
+	<!-- jQuery -->
+	<script src="../assets/bootstrap/jquery/jquery-3.1.1.min.js"></script>
+	<!-- Bootstrap JavaScript -->
+	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- login.js -->
+	<script src="../js/login.js"></script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+			<![endif]-->
+		</head>
+		<body>
+			<div class="tab-content">
+				<div id="login" class="formWrapper tab-pane fade in active">
+
+					<div class="form">
+						<div class="logo">
+							<h2>登录</h2>
+						</div>
+						<div class="form-item">
+							<p class="formLabel">邮箱</p>
+							<input type="text" name="loginEmail" id="loginEmail" class="form-style" autocomplete="off"/>
+						</div>
+						<div class="form-item">
+							<p class="formLabel">密码</p>
+							<input type="password" name="loginPassword" id="loginPassword" class="form-style" />
+							<!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
+							<p><a href="#" ><small>忘记密码？</small></a></p>	
+						</div>
+						<div class="form-item">
+							<p class="pull-left"><a href="#register" tabindex="-1" data-toggle="tab"><small>注册</small></a></p>
+							<input type="submit" class="login pull-right" value="登录" onclick="login()">
+							<div class="clear-fix"></div>
+						</div>
+						<div class="form-item">
+							<a href='#' class="pull-right"><small>返回首页</small></a>
+						</div>
+					</div>
+				</div>
+
+				<div id="register" class="formWrapper tab-pane fade">
+
+					<div class="form" style="top: 45%">
+						<div class="logo">
+							<h2>注册</h2>
+						</div>
+						<div class="form-item">
+							<p class="formLabel">邮箱</p>
+							<input type="text" name="registerEmail" id="registerEmail" class="form-style" autocomplete="off"/>
+						</div>
+						<div class="form-item">
+							<p class="formLabel">用户名</p>
+							<input type="text" name="username" id="username" class="form-style" autocomplete="off">
+						</div>
+						<div class="form-item">
+							<p id="pPassword" class="formLabel">密码</p>
+							<input type="password" name="registerPassword" id="registerPassword" class="form-style" placeholder="" />
+						</div>
+						<div class="form-item">
+							<p class="formLabel">确认密码</p>
+							<input type="password" name="confirmPassword" id="confirmPassword" class="form-style" />
+						</div>
+						<div class="form-item">
+							<p><a href="#login" tabindex="-1" data-toggle="tab">已有账号？去登录</a></p>
+							<input type="submit" class="login pull-right" value="注册" onclick="register()">
+							<div class="clear-fix"></div>
+						</div>
+						<div class="form-item">
+							<a href='#' class="pull-right"><small>返回首页</small></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+</body>
+</html>
