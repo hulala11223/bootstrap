@@ -1,0 +1,136 @@
+/* 配色：#666666#FFFFFF#99CCFF */
+
+body{
+	background-color:#E8E8E8;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	border:0px;
+}
+
+.navbar-default{
+	background-color:#333333;
+}
+
+.navbar-brand{
+	padding-top: 0px;
+	padding-left: 50px;
+	padding-right: 100px;
+}
+
+.navbar-right{
+	margin-right: 0px;
+}
+
+.header-font{
+	color: #CCCCCC;
+}
+
+.dropdown-menu{
+	min-width: 120px;
+	top:48px;
+}
+
+.navbar-right .dropdown-menu{
+	left: -30px;
+}
+
+.dropdown-menu > li > a{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #333333;
+	text-align: center;
+}
+
+.dropdown-menu > li > a.active{
+	font-weight: bold;
+}
+
+.dropdown-menu > li > a.logout{
+	border-top: 1px solid #e2e2e2;
+}
+
+.selectMenu{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	position: relative;
+	cursor: pointer;
+}
+
+.glyphicon{
+	font-size: 13px;
+}
+
+.logo{
+	margin-top:0px;
+}
+
+img,span.img-circle{
+	width:45px; 
+	height:45px; 
+	margin-top: 3px;
+	margin-right: 5px;
+}
+
+span.changeImgBg{
+	width:60px; 
+	height:60px;
+	right: 26px;
+	top: 5px;
+	z-index: 10;
+	opacity: 0.5;
+	background-color: #606060;
+	position: absolute;
+}
+
+span.changeImgText{
+	width:60px; 
+	height:60px; 
+	top: 25px;
+	right: 26px;
+	z-index: 15;
+	opacity: 1;
+	color: #FFFFFF;
+	position: absolute;
+}
+
+.col-md-12{
+	padding:15px 0px 10px 0px;;
+}
+
+.col-md-6{
+	display: none;
+}
+
+.thumbnail{
+	cursor: pointer;
+}
+
+.label{
+	font-size: 90%;
+}
+
+.iconButton{
+	margin-left: 5%;
+	margin-right: 5%;
+	color: #CCCCCC;
+	font-size:20px;
+	cursor: pointer;
+}
+
+.tooltip-inner{
+	background-color: #264d79;
+}
+
+.tooltip.top .tooltip-arrow{
+	border-top-color: #264d79;
+}
+
+.headIcon{
+	font-size: 18px;
+	color: #CCCCCC;
+	margin-top: 15px;
+	margin-right: 20px;
+	cursor: pointer;
+}
